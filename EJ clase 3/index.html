@@ -1,12 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticia con form</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Noticia con form</title>
+    </head>
+    <body>
+        <header id="global-header">
+            <div id="header-logo">
+                <img src="https://media.npr.org/chrome_svg/npr-logo.svg" width="150px" alt="NPR logo">
+            </div>
 
-</body>
+            <nav class="navbar">
+                <a href="https://www.npr.org/sections/news/">News</a> |
+                <a href="https://www.npr.org/sections/culture/">Culture</a> |
+                <a href="https://www.npr.org/music/">Music</a> |
+                <a href="https://www.npr.org/podcasts-and-shows/">Podcasts and shows</a> |
+                <a href="https://www.npr.org/search/">Search</a>
+            </nav>
+        </header>
+
+        <main>
+            <article class="article">
+                <div class="title">
+                    <h1>Tesla shares sink, wipe out over $125 billion in value, as Musk scores Twitter deal</h1>
+                </div>
+
+                <div class="story-metadata">
+                    <div class="date">
+                        <time datetime="2022-04-26T17:31:24-04:00">
+                            <span class="date">April 26, 2016</span>
+                            <span class="time">5:31 PM ET</span>
+                        </time>
+                    </div>
+                </div>
+
+                <div class="story-content">
+                    <figure class="main-figure">
+                        <img src="https://media.npr.org/assets/img/2022/04/26/gettyimages-1239417462-14222099fa42c02b7648c02c73c74396f1070785-s800-c85.webp" 
+                        alt="Picture of Elon Musk">
+                        <figcaption><small>Tesla CEO Elon Musk speaks during the official opening of the new Tesla electric car manufacturing plant near 
+                            Gruenheide, Germany, on March 22. Tesla shares sank on Tuesday, a day after Twitter accepted a takeover offer from Musk.</small>
+                        </figcaption>
+                    </figure>
+
+                    <p>Taking over Twitter may be good for Elon Musk, but it hasn't been good for Tesla's shares.</p>
+
+                    <p>One day after <a href="https://www.npr.org/2022/04/25/1094604406/twitter-elon-musk-deal">Twitter announced</a> 
+                        it had accepted Musk's $44 billion takeover bid, Tesla shares sank 12.2%, wiping out more than 
+                        $125 billion off the electric vehicle maker's market value.</p>
+
+                    <p>The falls come as Wall Street fretted about how the deal could impact the electric vehicle maker and its stock price. </p>
+
+                    <p>When Musk announced he had secured the money to finance the transaction, he said he would cover $21 billion himself, 
+                        with banks helping finance the other half.</p>
+
+                    <p>What remains unclear is how he will come up with that money — whether he will sell some of the Tesla shares he owns, 
+                        borrow against them, bring in additional investors, or all three. </p>
+
+                    <p>There is also growing concern about whether owning Twitter would bring him into conflict over free speech with the 
+                        government in China, a key market for Tesla where the auto maker also has significant production.</p>
+
+                    <p>On top of that, there is the risk Musk could become distracted by his latest acquisition.</p>
+
+                    <p>Musk is the CEO of Tesla and Space-X and is involved with other business ventures such as Neuralink, 
+                        which develops brain implant technology, as well as The Boring Company, which makes tunnels.</p>
+
+                    <figure class="second-img">
+                        <img src="https://media.npr.org/assets/img/2022/04/26/gettyimages-1393675419-7a5a586a5cdcaaa5598e080c7879e098655adf80-s800-c85.webp"
+                        alt="Elon Musk's tweets">
+                        <figcaption><small>Tweets by Elon Musk are shown on a computer in Chicago, Illinois, in this photo illustration on April 25.</small></figcaption>
+                    </figure>
+                </div>
+
+                <div class="tags">
+                    <label>Tags</label>
+
+                    <table class="tag-table">
+                        <tr>
+                            <td>
+                                <a href="https://www.npr.org/tags/1094907459/tesla-shares">tesla shares</a>
+                            </td>
+                            <td>
+                                <a href="https://www.npr.org/tags/161704499/tesla">tesla</a>
+                            </td>
+                            <td>
+                                <a href="https://www.npr.org/tags/154533231/elon-musk">elon musk</a>
+                            </td>
+                            <td>
+                                <a href="https://www.npr.org/tags/125099510/twitter">twitter</a>
+                            </td>
+                        </tr>
+                    </table><br><br>
+                </div>
+            </article>
+
+            <div class="subscription">
+                <label>Subscribe to our newsletter!</label>
+                <form class="newsletter-subscription">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name"><br>
+
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name"><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email"><br>
+
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="tel" id="phone-number"><br>
+
+                    <input type="submit" id="submit" value="Submit">
+                    <input type="reset" id="reset" value="Reset">
+                </form><br><br>
+            </div>
+        </main>
+
+        <footer>
+            <table id="footer-table">
+                <tr>
+                    <th>READ AND LISTEN</th>
+                    <th>CONNECT</th>
+                    <th>ABOUT NPR</th>
+                    <th>GET INVOLVED</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="https://www.npr.org/">Home</a>
+                    </td>
+                    <td>
+                        <a href="https://www.npr.org/newsletters/">Newsletter</a>
+                    </td>
+                    <td>
+                        <a href="https://www.npr.org/about/">Overview</a>
+                    </td>
+                    <td>
+                        <a href="https://www.npr.org/support/">Support public radio</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="https://www.npr.org/sections/news/">News</a>
+                    </td>
+                    <td>
+                        <a href="https://www.facebook.com/NPR/">Facebook</a>
+                    </td>
+                    <td>
+                        <a href="https://www.npr.org/diversity/">Diversity</a>
+                    </td>
+                    <td>
+                        <a href="https://www.npr.org/about-npr/186948703/corporate-sponsorship">Sponsor NPR</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="https://www.npr.org/sections/culture/">Culture</a>
+                    </td>
+                    <td>
+                        <a href="https://twitter.com/NPR">Twitter</a>
+                    </td>
+                    <td>
+                        <a href="https://www.npr.org/ethics/">Ethics</a>
+                    </td>
+                    <td>
+                        <a href="https://www.npr.org/careers/">NPR Careers</a>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+    </body>
 </html>
