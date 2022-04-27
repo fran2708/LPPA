@@ -1,0 +1,22 @@
+.table {
+    border-collapse: collapse;
+}
+
+#first {
+    background-color: #2826b9;
+    color: white;
+}
+
+.table tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+.table td, .table th{
+    border: 1px solid #000000;
+    padding: 5px;
+    text-align: left;
+}
+
+.table th {
+    background-color: lightblue;
+}

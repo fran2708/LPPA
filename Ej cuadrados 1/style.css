@@ -1,0 +1,37 @@
+* {
+    background-color: black;
+}
+
+.container {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+
+}
+
+.box1 {
+    background-color: #cc1919;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 65%;
+    top: 5%;
+}
+
+.box2 {
+    background-color: #ffe600;
+    height: 100px;
+    width: 100px;
+    position : relative;
+    left: 35%;
+    top: 7%;
+}
+
+.box3 {
+    background-color: #52ff02;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 5%;
+    top: 9%;
+}
