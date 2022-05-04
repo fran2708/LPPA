@@ -1,0 +1,30 @@
+@media screen and (max-width: 599px) {
+    .fakeimg {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .left-column {
+        float: left;
+        width: 50%;
+    }
+    .right-column {
+        float: right;
+        width: 50%;
+    }
+
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: aquamarine;
+    }
+
+    .footer {
+        visibility: hidden;
+    }
+}

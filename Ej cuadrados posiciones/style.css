@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.sq1 {
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+}
+
+.sq2 {
+    width: 200px;
+    height: 200px;
+    background-color: #00ff0d;
+    margin: 20px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.sq3 {
+    width: 200px;
+    height: 200px;
+    background-color: #2600ff;
+    position: relative;
+    left: 30px;
+    top: 150px;
+}
